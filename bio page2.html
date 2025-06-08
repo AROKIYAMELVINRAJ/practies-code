@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+       *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+        body{
+            height: 80%;
+            margin: 0;
+            padding: 0px;
+        }
+        #div1{
+            height: 150px;
+            width: 100%;
+            border: solid black;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            background:black;
+        }
+         .menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+      
+    .menu> a{
+            display: flex;
+            color:white;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 5%;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+        .menu>a:hover{
+            color: red;
+        }
+        h2{
+            
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            color:red;
+            position: absolute;
+            top: 60px;
+            left: 450px;
+             font-family: "Nunito", sans-serif;
+             font-size: xx-large;
+
+            
+        }
+        section{
+            height: 280px;
+            width: auto;
+            border: solid black;
+            border: none;
+        }
+        article{
+            height: 35px;
+            width: 250px;
+            border: solid lightgray;
+            border-radius: 15px;
+            position: absolute;
+            top: 270px;
+            left: 80px;
+        }
+        .name{
+            text-align: center;
+            font-variant: small-caps;
+            font-weight: bolder;
+        }
+        .role{
+            margin-left: 10px;
+            margin-top: 10px;
+            font-weight: bolder;
+        }
+       #mel {
+            height: 300px;
+            width: 300px;
+            border: solid black;
+            border-radius: 10px;
+            margin-top: 100px;
+            position: absolute;
+            left: 55px;
+            display: flex;
+            
+        }
+        #div2{
+            height: 100px;
+            width: inherit;
+            border: solid black;
+            flex-basis: 50%;
+            border-top: none;
+            border-left: none;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            
+        }
+         #div3{
+            height: 100px;
+            width: inherit;
+            border: solid black;
+            
+            flex-basis: 50%;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+             display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            
+        }
+        #div4{
+            margin-top: 325px;
+            margin-left: 60px;
+            font-weight: bold;
+        }
+        pre{
+             font-weight: bold;
+            font-size:large;
+            font-style:oblique;
+            margin-left: 10px;
+            position: absolute;
+            top: 490px;
+            
+        }
+        
+        nav{
+            background-image:url("1715331452907.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            border: solid white;
+            border-width: 5px;
+            position: absolute;
+            top: 55px;
+            left: 105px;
+          
+        }
+        .section1{
+            height: 305px;
+            width: 550px;
+            /* border: solid black; */
+            position: absolute;
+            top: 190px;
+            left: 430px;
+        }
+        .education{
+            
+            height: 35px;
+            width: 270px;
+            border-radius: 15px;
+            border: solid lightgray;
+            font-variant: small-caps;
+            text-align: center;
+        }
+        .clg{
+             margin-top: 15px;
+             margin-left: 30px;
+             font-weight: bold;
+        }
+        .skills{
+            margin-top: 15px;
+            height: 35px;
+            width: 270px;
+            border-radius: 15px;
+            border: solid lightgray;
+            font-variant: small-caps;
+            text-align:center;
+        }
+        .list1, .list2{
+            margin-left: 50px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .experience{
+            margin-top: 15px;
+            height: 35px;
+            width: 270px;
+            border-radius: 15px;
+            border: solid lightgray;
+            font-variant: small-caps;
+            text-align:center;  
+        }
+        #experience{
+             font-weight: bold;
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+        .section2{
+            height: 490px;
+            width: 505px;
+            /* border: solid black; */
+            position: absolute;
+             top: 190px;
+            left: 980px;
+        }
+        .techskills{
+            height: 35px;
+            width: 270px;
+            border-radius: 15px;
+            border: solid lightgray;
+            font-variant: small-caps;
+            text-align:center;
+            
+        }
+        /* .list2 {
+            margin-left: 50px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        */
+        .project{
+            height: 35px;
+            width: 270px;
+            border-radius: 15px;
+            border: solid lightgray;
+            font-variant: small-caps;
+            text-align:center;
+            margin-top: 15px;
+        }
+        .aboutproject{
+            font-weight: bold;
+            margin-top: 15px;
+            margin-left: 30px;
+        }
+        .logos{
+            height: 60px;
+            width: 300px;
+            /* border: solid black; */
+            border-radius: 15px;
+            margin-top: 50px;
+            margin-left: 40px;
+            display: flex;
+
+        }
+        #linkedin,#git,#insta,#app{
+            margin-left: 15px;
+            margin-top: 10px;
+            border: solid black;
+            border-radius: 100%;
+            font-size: xx-large;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <!-- <header> -->
+        <div id="div1">
+            <h2 >BIOGRAPHY</h2>
+             <section class="menu">
+           <a href="./portfolio1.html"><aside class="home">Home</aside></a>
+           <a href="./bio page2.html"><aside class="about">About</aside></a>
+           <a href="./Skills.html"><aside class="">Skills</aside></a>
+           <a href=""><aside class="portfolio">Portfolio</aside></a>
+           <a href="./contact.html"><aside class="contact">Contact</aside></a>
+        </section>
+        </div>
+        <nav> </nav>
+        <section> 
+            <article>
+                <h3 class="name">Arokiya melvin raj</h3>
+                <p class="role">Frontend Developer at Troudz</p>
+            </article>
+            <article id="mel"> 
+                <div id="div2">Age <br>23</div>
+                <div id="div3">Marital Status <br>unmaride</div>
+            </article>
+            <div id="div4">Contact Details:</div>
+            <pre> 
+                Door no:3/226,
+                Madha Kovil Street,
+                Anaikaraikottalam,
+                Sankarapuram(Tk),
+                Kallakurichi(Dt),
+                Pin no:606213.
+            </pre>
+            <div class="section1">
+                <h3 class="education">Education Qualification</h3>
+               
+                    <p class="clg">Bachelor of Engineering (B.E.) – Computer Science and Engineering<br>
+                       Mahendra Institute of Technology, Namakkal<br>
+                       CGPA:8.5/10 upto the 7th semaster <br>
+                       Completed in May-2025
+                    </p>
+                       <h3 class="skills">Soft Skills</h3>
+                       <ol class="list1">
+                        <li>Project Management</li>
+                        <li>Public relations</li>
+                        <li>Team Work</li>
+                        <li>Time Management</li>
+                        <li>Leadership</li>
+                        <li>Problem Solving</li>
+                       </ol>
+                       <h3 class="experience">Experience</h3>
+                       <p id="experience">
+                          Front-End Development Intern <br> 
+                          Troudz Company – work from home <br> 
+                          May 2025 – Present  <br>
+                        </p>
+            </div>
+            <div class="section2">
+                <h3 class="techskills" id="tech">Technical Skills</h3>
+                <ol class="list2">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    <li>JAVA</li>
+                </ol>
+                <h3 class="project">Project</h3>
+                <p class="aboutproject">Developed a Medical Diagnosis System 
+                    using deep learning <br>to predict diseases based on user-input symptoms.<br>
+                     The system is designed to run on smartphones,<br> allowing users to easily 
+                     identify possible health issues <br>and receive suggestions for further action.
+                </p>
+                <div class="logos">
+                <a href="https://github.com/AROKIYAMELVINRAJ/practies-code" target="_blank">
+                    <i class='bx bxl-github' id="git"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/arokiya-melvin-raj/" target="_blank">
+                   <i class='bx bxl-linkedin' id="linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class='bx bxl-instagram' id="insta"></i>
+                </a>
+                
+                 </div>
+
+
+            </div>
+        </section>
+    <!-- </header>    -->
+</body>
+</html>

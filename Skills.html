@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+           *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+     }
+    body{
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         background: black;
+       }
+    .head{
+         justify-items: center;
+         margin-top: 20px;
+        }
+    .name{
+         color: red;
+        }
+    .role{
+         color: white;
+         font-weight: bolder;
+        }
+    .skills-section {
+        width: 700px;
+        margin: 80px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+       } 
+    .skills-section h2 {
+        text-align: center;
+        color: #333;
+       }
+    .skills .skill {
+        margin-bottom: 20px;
+       }
+    .skills .skill p {
+        margin: 0 0 5px 0;
+        font-weight: bold;
+        color: #444;
+       }
+    .bar{
+        background-color: #ddd;
+        border-radius: 20px;
+        height: 20px;
+        overflow: hidden;
+       }
+    .fill{
+        background-color: red;
+        height: 100%;
+        border-radius: 20px;
+       }
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+      
+    .menu> a{
+            display: flex;
+            color:white;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 5%;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+   
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h1 class="name">AROKIYA MELVIN RAJ</h1>
+        <p class="role">Frontend Developer</p>
+    </header>
+
+     <section class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="bar">
+                    <div class="fill" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="bar">
+                    <div class="fill" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Java</p>
+                <div class="bar">
+                    <div class="fill" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>SQL</p>
+                <div class="bar">
+                    <div class="fill" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Java Script</p>
+                <div class="bar">
+                    <div class="fill" style="width: 35%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <a href="./portfolio1.html"><button>Back to Home</button></a> -->
+        <section class="menu">
+           <a href="./portfolio1.html"><aside class="home">Home</aside></a>
+           <a href="./bio page2.html"><aside class="about">About</aside></a>
+           <a href="./Skills.html"><aside class="skills">Skills</aside></a>
+           <a href=""><aside class="portfolio">Portfolio</aside></a>
+           <a href=""><aside class="contact">Contact</aside></a>
+        </section>
+</body>
+</html>

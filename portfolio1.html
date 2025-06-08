@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+     *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+     }
+    body{
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         background: black;
+       }
+    .work {
+        margin: 0; 
+        margin-top: 63px;
+        position: relative;
+        animation-name: move;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-direction: alternate; 
+        animation-iteration-count: infinite; 
+        }
+    @keyframes move {
+        from { left: 0px; top: 0px; }
+        to { left: 1170px; top: 0px; }
+        }
+
+       .work img{
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
+       }
+    .image{
+          height: 650px;
+          width: 360px;
+          background-image: url("./Picsart_25-06-07_17-09-08-995.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-top: 10px;
+          margin-left: 100px; 
+        }
+    .menu{
+          height: 40px;
+          width: 50%;
+          /* border: solid white; */
+          position: absolute;
+          right: 0%;
+          top: 5%;
+          display: flex;
+            
+        }
+        .menu> a{
+            display: flex;
+            color: red;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 50%;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+         .menu> a:hover{
+            color: white;
+         }
+        main{
+             position: absolute;
+            top: 200px;
+            right: 300px;
+        }
+        main> h2,h1{
+            color: white;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding-top: 10px;
+            font-size: xx-large;
+    
+        }
+        .color{
+            color: red;
+        }
+        p{
+            color: white;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding-top: 10px;
+        }
+        .logos> a{
+           padding-left: 25px;
+        }
+        i{
+            margin-top: 35px;
+            font-size: 50px;
+            border:solid red;
+            border-radius: 100%;
+            align-items: center;
+        }
+        i:hover{
+            border:none;
+        }
+        button{
+            height: 50px;
+            width: 250px;
+            border: red;
+            background-color: red;
+            color: white;
+            font-weight: bolder;
+            font-size: x-large;
+            margin-top: 40px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 15px;
+            margin-left: 55px;
+        }
+        button:hover{
+            background-color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2 class="work" style="color: white;">Software Developer at <img src="https://media.licdn.com/dms/image/v2/D560BAQH5gC6OJZ6i_A/company-logo_200_200/company-logo_200_200/0/1737180363063/troudz_logo?e=1755129600&v=beta&t=CXgl0ABJD4cqKyiUKb1fLun-x4FtV64-GwLYLy-9GvM" alt=""> Troudz.</h2>
+    <header class="menu">
+        <a href=""><aside class="home">Home</aside></a>
+        <a href="./bio page2.html"><aside class="about">About</aside></a>
+        <a href="./Skills.html"><aside class="skills">Skills</aside></a>
+        <a href=""><aside class="portfolio">Portfolio</aside></a>
+        <a href="./contact.html"><aside class="contact">Contact</aside></a>
+    </header>
+    <main class="intro">
+        <h2>Hello,I am</h2>
+        <h1>Arokiya Melvin Raj</h1>
+        <h2>I am a <span class="color">Frontend Developer</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur elit.<br>
+              Corporis et deleniti  excepturi adipisicing esse veniam<br>
+              blanditiis enim sint in molestiae delectus officia <br>
+              reiciendis earum nemo, nisi qui quis accusamus similique saepe. <br>
+           
+        </p>
+             <div class="logos">
+                <a href="https://github.com/AROKIYAMELVINRAJ/practies-code" target="_blank">
+                    <i class='bx bxl-github' class="git"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/arokiya-melvin-raj/" target="_blank">
+                   <i class='bx bxl-linkedin' class="linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class='bx bxl-instagram' class="insta"></i>
+                </a>
+              <a href="" >  <i class='bx bxl-facebook'  class="facebook"></i></a>
+                
+            </div>
+            <a href="./Arokiya melvin raj A (CV).pdf" target="_blank"><button>View Resume</button></a>
+
+    </main>
+    <div class="image"></div>
+    
+   
+</body>
+</html>

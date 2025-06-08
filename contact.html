@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact details</title>
+    <style>
+        *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+     }
+    body{
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         background: black;
+       }
+        .menu{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+      
+    .menu> a{
+            display: flex;
+            color:white;
+            /* justify-content: center; */
+            align-items: center;
+            flex-basis: 5%;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+    .contact {
+        background-color: #fff;
+         padding: 40px;
+         max-width: 800px;
+         margin: 60px auto;
+         border-radius: 12px;
+         box-shadow: 0 0 15px rgba(0,0,0,0.1);
+       }
+    .contact h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+       }      
+    .contact-info p, .contact-info a {
+        font-size: 16px;
+        color: #444;
+        margin: 8px 0;
+       }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+       }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 15px;
+       }
+    .contact-form button {
+        background-color: #10102c;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+       }
+    .contact-form button:hover {
+        background-color: #34347d;
+       }
+
+
+    </style>
+</head>
+<body>
+    <section class="menu">
+           <a href="./portfolio1.html"><aside class="home">Home</aside></a>
+           <a href="./bio page2.html"><aside class="about">About</aside></a>
+           <a href="./Skills.html"><aside class="skills">Skills</aside></a>
+           <a href=""><aside class="portfolio">Portfolio</aside></a>
+           <!-- <a href=""><aside class="contact">Contact</aside></a> -->
+        </section>
+    <section class="contact">
+       <h2>Contact Me</h2>
+            <div class="contact-info">
+               <p><strong>Email:</strong> <a href="">arokiyamelvinraj@gmail.com</a></p>
+               <p><strong>Phone:</strong> +91 8754652821</p>
+               <p><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
+               <p>
+                 <strong>Social:</strong>
+                 <a href="https://github.com/AROKIYAMELVINRAJ/practies-code" target="_blank">GitHub</a> |
+                 <a href="https://www.linkedin.com/in/arokiya-melvin-raj" target="_blank">LinkedIn</a>
+               </p>
+            </div>
+
+            <form class="contact-form">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+    </section>
+
+    
+</body>
+</html>
